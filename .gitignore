@@ -1,0 +1,47 @@
+# Python & Temp Files
+__pycache__/
+*.py[cod]
+*.pyo
+*.swp
+*.tmp
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables & Configs
+.env
+*.env
+.flaskenv
+
+# Database
+*.db
+*.sqlite3
+*.db-journal
+mahakali_pro.db
+
+# Flask Instance & Storage
+instance/
+uploads/
+app/static/uploads/
+
+# Logs
+logs/
+*.log
+
+# Migrations Cache
+migrations/__pycache__/
+migrations/versions/__pycache__/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing & Frontend
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
